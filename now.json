@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "nextjs-buttercms",
+  "alias": "nextjs-buttercms.now.sh",
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
+  "build": {
+    "env": {
+      "API_TOKEN": "@api_token"
+    }
+  }
+}
