@@ -31,7 +31,7 @@ function HomePage() {
       <header>
         <div>
           <img src="/icons/next.svg" />
-          <img src="/icons/contentful.svg" />
+          <img src="/icons/buttercms.svg" />
         </div>
         <h1>Next.js + ButterCMS</h1>
       </header>
