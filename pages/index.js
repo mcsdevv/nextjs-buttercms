@@ -13,7 +13,6 @@ function HomePage() {
       );
       const { data } = await res.json();
       const allPosts = data.posts;
-      console.log(allPosts);
       setPosts([...allPosts]);
     }
     getPosts();
